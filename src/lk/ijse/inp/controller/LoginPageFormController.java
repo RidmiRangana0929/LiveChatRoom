@@ -8,6 +8,8 @@ public class LoginPageFormController {
     public AnchorPane loginPageContext;
     public TextField txtUsername;
 
+    static String username;
     public void btnLoginOnAction(ActionEvent actionEvent) {
+        username=txtUsername.getText();
     }
 }
