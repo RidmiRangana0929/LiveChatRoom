@@ -18,7 +18,7 @@ public class client2 extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
 
-        URL resource = getClass().getResource("view/LoginForm.fxml");
+        URL resource = getClass().getResource("view/loginPageForm.fxml");
         Parent load = FXMLLoader.load(resource);
         Scene scene = new Scene(load);
         primaryStage.setScene(scene);
